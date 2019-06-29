@@ -16,20 +16,20 @@ end
 function Debuger:Log(msgString)
     if self.isDebugMode == true then
         newDebugMessage = MESSAGE:New(tostring(msgString .. "\n"), 10, "DEBUG", false):ToAll()
-        BASE:E(tostring(msgString))
     end
+    BASE:E(tostring(msgString))
 end
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
-Debug = Debuger:New(true)
+Debug = Debuger:New(false)
 
 local redZone = ZONE:FindByName("RedZone")
 local blueZone = ZONE:FindByName("BlueZone")
 
 mainA2AController = A2AController:New()
 local frontZone = ZONE:FindByName("FrontZone")
-mainA2AController:SetDispatcher("EWR", 230000, 80000, 135000, frontZone, redZone, blueZone)
+mainA2AController:SetDispatcher("EWR", 230000, 80000, 120000, frontZone, redZone, blueZone)
 
 mainA2AConfigurator = A2AConfigurator:New()
 mainA2AConfigurator:SetA2AConfigs(A2AConfig)

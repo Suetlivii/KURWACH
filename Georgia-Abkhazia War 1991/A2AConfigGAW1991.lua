@@ -35,19 +35,19 @@ A2AConfig =
         airCraftLimit = 8,
         minFrontlineDistance = 40000,
         maxFrontlineDistance = 100000
-    },
-    {
-        groupPrefix = "BlueGeorgianCAPF16",
-        spawnedGroupPrefix = "GeorgianCAPF16",
-        minAltitude = 3000,
-        maxAltitude = 6000,
-        airBase = "Soganlug",
-        isCap = true,
-        isGci = false,
-        grouping = 2,
-        overhead = 1,
-        airCraftLimit = 8,
-        minFrontlineDistance = 40000,
-        maxFrontlineDistance = 100000
     }
+    -- {
+    --     groupPrefix = "BlueGeorgianCAPF16",
+    --     spawnedGroupPrefix = "GeorgianCAPF16",
+    --     minAltitude = 3000,
+    --     maxAltitude = 6000,
+    --     airBase = "Soganlug",
+    --     isCap = true,
+    --     isGci = false,
+    --     grouping = 2,
+    --     overhead = 1,
+    --     airCraftLimit = 8,
+    --     minFrontlineDistance = 40000,
+    --     maxFrontlineDistance = 100000
+    -- }
 }
