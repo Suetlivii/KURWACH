@@ -38,3 +38,5 @@ mainA2AConfigurator:SetController(mainA2AController)
 mainA2GController = A2GController:New(A2GConfigs)
 mainA2GController:SetZones(blueZone, redZone, blueZone)
 mainA2GController:StartBAI(1800, 0.5, 1)
+
+SEADController = SEAD:New( {"SEAD Georgian SA-8 #002", "EWR"} )
