@@ -29,7 +29,7 @@ local blueZone = ZONE:FindByName("BlueZone")
 
 mainA2AController = A2AController:New()
 local frontZone = ZONE:FindByName("FrontZone")
-mainA2AController:SetDispatcher("EWR", 230000, 80000, 120000, frontZone, redZone, blueZone)
+mainA2AController:SetDispatcher("EWR", 230000, 80000, 150000, frontZone, redZone, blueZone)
 
 mainA2AConfigurator = A2AConfigurator:New()
 mainA2AConfigurator:SetA2AConfigs(A2AConfig)
