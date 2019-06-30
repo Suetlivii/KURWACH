@@ -34,9 +34,11 @@ mainA2AController:SetDispatcher("EWR", 230000, 80000, 120000, frontZone, redZone
 mainA2AConfigurator = A2AConfigurator:New()
 mainA2AConfigurator:SetA2AConfigs(A2AConfig)
 mainA2AConfigurator:SetController(mainA2AController)
+mainA2AConfigurator:StartA2A()
 
 mainA2GController = A2GController:New(A2GConfigs)
 mainA2GController:SetZones(blueZone, redZone, blueZone)
 mainA2GController:StartBAI(1800, 0.5, 1)
+
 
 SEADController = SEAD:New( {"SEAD Georgian SA-8 #002", "EWR"} )
