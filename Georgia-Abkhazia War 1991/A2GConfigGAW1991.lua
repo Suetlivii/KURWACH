@@ -40,6 +40,7 @@ A2GConfigs =
         minAlt = 2000,
         maxAlt = 5000,
         minDistance = 40000,
-        maxDistance = 100000
+        maxDistance = 100000,
+        attackDelay = 600
     }
 }

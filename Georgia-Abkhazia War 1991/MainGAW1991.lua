@@ -34,7 +34,7 @@ mainA2AController:SetDispatcher("EWR", 230000, 80000, 200000, frontZone, redZone
 mainA2AConfigurator = A2AConfigurator:New()
 mainA2AConfigurator:SetA2AConfigs(A2AConfig)
 mainA2AConfigurator:SetController(mainA2AController)
-mainA2AConfigurator:StartA2A()
+--mainA2AConfigurator:StartA2A()
 
 mainA2GController = A2GController:New(A2GConfigs)
 mainA2GController:SetZones(blueZone, redZone, blueZone)

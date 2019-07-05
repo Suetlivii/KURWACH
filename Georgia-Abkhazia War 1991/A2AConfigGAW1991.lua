@@ -25,8 +25,8 @@ A2AConfig =
     {
         groupPrefix = "capMig29",
         spawnedGroupPrefix = "CapMig29S",
-        minAltitude = 3000,
-        maxAltitude = 6000,
+        minAltitude = 5500,
+        maxAltitude = 10000,
         airBase = "Gudauta",
         isCap = true,
         isGci = false,
@@ -39,8 +39,8 @@ A2AConfig =
     {
         groupPrefix = "gciSu27",
         spawnedGroupPrefix = "gciMig29S",
-        minAltitude = 3000,
-        maxAltitude = 6000,
+        minAltitude = 2000,
+        maxAltitude = 11000,
         airBase = "Gudauta",
         isCap = false,
         isGci = true,
